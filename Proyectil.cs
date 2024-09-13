@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace TallerS3_Tarea
 {
-    internal class Program
+    internal class Proyectil
     {
-        static void Main(string[] args)
+        float daño;
+
+        public Proyectil(float daño)
         {
-            Menu menu=new Menu();
-            menu.EjecutarMenuPrincipal();
+            this.daño = daño;
         }
     }
 }

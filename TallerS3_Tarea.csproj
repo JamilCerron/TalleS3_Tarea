@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arma.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="MenuInventario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyectil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
